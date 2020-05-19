@@ -1,0 +1,150 @@
+#footer {
+     /* background-color:#ef8120; */
+     /* border-color:#ef8120; 
+     border-style: solid;*/
+     background-color: #665c53;
+     
+}
+.card-body a{
+    color: #b17037;
+          
+}
+
+.card-body a:hover{
+  color: #804e23;
+        
+} 
+.navbar{
+
+    background-color: #665c53;
+    color:white;
+    /* border-style: solid; */
+    
+}
+
+address{
+    color: white;
+}
+
+address i{
+
+    color:#ef8120;
+  
+  }
+
+.footer-copyright{
+
+    color:#665c53;
+    background-color: #a5978b;
+    
+}
+
+/*Mobile*/
+
+.voluntary{
+    
+    background-image: url("https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+#voluntary-text{
+
+    text-align: center;
+    color: #665c53 ;
+    font-size: 2rem;
+
+}
+
+.footer-copyright a{
+
+    color:#ef8120;
+    text-decoration: none;
+    
+}
+
+.contact-icons-p i{
+    color: #ef8120;
+
+}
+
+.img-fluid{
+
+    max-width: 8rem;
+    max-height: 10rem;
+    vertical-align: middle;
+    margin-top : 1rem;
+    margin-bottom: 1rem;
+    
+
+}
+.dropdown-menu{
+
+    background-color:  #665c53;
+    color: white;
+
+}
+
+.dropdown-menu a:hover{
+
+    color: #ef8120;
+
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:link, a:visited {
+    color:white;
+}
+
+.navbar .page-item a:link, .page-item a:visited {
+    color:#804e23;
+}
+
+.navbar a:hover {
+    color: #ef8120;
+}
+.navbar-toggler span{
+    color:white;
+}
+
+  #footer img{
+        size: 1rem;
+  } 
+
+  @media screen and (min-width: 500px) {
+    
+        #accordion{
+   
+            align-self: center;
+            max-width: 80%;
+            padding-left: 40%;
+            padding-right: 20%;
+            text-align: justify;
+               
+        }
+                
+        .cardAccor{
+        
+            width: 18rem;
+        }
+
+        
+    }
+
+    @media screen and (max-width: 1025px) {
+    
+        #accordion{
+   
+            align-self: center;
+            max-width: 80%;
+            padding-left: 20%;
+                        
+        }
+        .quote{
+
+            display: none;
+        }
+        
+    }
+  

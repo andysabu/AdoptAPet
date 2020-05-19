@@ -1,0 +1,132 @@
+#donate-page  
+    padding: 0 !important
+    background-color: #000
+    opacity: .9
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    height: 100vh  
+    
+    *
+        animation-name: fade-in
+        animation-fill-mode: both
+        animation-duration: 1s
+        animation-delay: .3s
+        font-weight: 600
+    @keyframes fade-in
+        0%
+            opacity: 0
+
+        100% 
+            opacity: 1
+    #donate-text
+
+        h2 
+            text-align: center
+            color: #ff312e 
+            font-size: 3rem
+
+        p 
+            color: #ff312e  
+            text-align: center
+            font-weight: 900
+            font-size: 1.4rem
+            line-height: 1.8rem
+
+    #donate-stripe, #donate-paypal
+        text-align: center
+        color: whitesmoke
+        
+        button
+            border-radius: 50px
+            background-color: #CC2220
+            border: none
+            height: 60px
+
+    #donate-btns
+        display: flex
+
+    @media screen and ( max-width: 500px )
+        #donate-btns
+                display: initial
+    @media screen and ( min-width: 1025px  )
+        background-image: url("https://images.pexels.com/photos/1485637/pexels-photo-1485637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920")
+        #donate-text
+            h2 
+                color: #35393d
+            p 
+                color: #35393d
+
+        #donate-stripe, #donate-paypal
+            button 
+                background-color: #35393d
+#card-element
+    border-radius: 50px
+    outline: none
+    background-color: whitesmoke
+    padding-left: 3%
+
+#stripe-card *
+    font-weight: 600
+
+#nameD, #emailD, #amountD
+    height: 40px
+    border-radius: 50px
+    margin-bottom: 5%
+    outline: none
+    padding-left: 3%
+    box-shadow: 0 1px 3px 0 #e6ebf1 // Using stripes styling to make the inputs look the same
+    border: 1px solid transparent
+    padding: 10px 5%
+    font-family: "Helvetica Neue", Helvetica, sans-serif
+    background-color: whitesmoke
+    // Webkits & Other
+    -webkit-appearance: none
+    -moz-appearance: textfield
+    color:#32325d
+    font-size: 16px
+::placeholder
+    font-size: 16px
+    color: #aab7c4
+::focus
+    box-shadow: 0 1px 3px 0 #cfd7df
+
+#mod-bodD button
+    margin-top: 4%  
+    border-radius: 50px
+    height: 60px
+    background-color: #665c53
+    border: none
+    font-weight: 600
+
+#receipt
+    display: none
+#rec-url
+    text-decoration: none
+
+.StripeElement 
+    box-sizing: border-box
+    height: 40px
+    padding: 10px 12px
+    border: 1px solid transparent
+    border-radius: 4px
+    background-color: white
+    box-shadow: 0 1px 3px 0 #e6ebf1
+    -webkit-transition: box-shadow 150ms ease
+    transition: box-shadow 150ms ease
+
+.StripeElement--focus 
+    box-shadow: 0 1px 3px 0 #cfd7df
+
+.StripeElement--invalid 
+    border-color: #fa755a
+
+.StripeElement--webkit-autofill 
+    background-color: #fefde5 !important
+
+#card-errors
+    color: #fa755a
+
+@media screen and ( max-width: 1024px )
+    #donate-page
+        background-image: url("https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=545&w=375") 
