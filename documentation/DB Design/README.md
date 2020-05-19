@@ -38,7 +38,7 @@ A well-structured database:
 
 Designing a database is a matter of following the proper process. These are the phases we have followed:
 
-![image](https://www.databasehomeworkhelp.com/wp-content/uploads/2014/02/designimage.png)
+<img src="DB Design.png" alt="DB Design"/>
 
 # Requirements and analysis
 
